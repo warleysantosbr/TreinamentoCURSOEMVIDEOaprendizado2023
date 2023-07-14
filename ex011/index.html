@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens e Telas</title>
+</head>
+<body>
+    <h1>Veja em diferentes dispositivos ou reduza a janela do navegador para testar este recurso</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="Maior imagem">
+    </picture>
+    <h1>REPRODUZINDO AUDIO</h1>
+    <p>Vamos adicionar áudio em nossa página</p>
+    <audio src="midia/guanacast-33.mp3" controls></audio>
+
+
+    <h1>AGORA ABAIXO TEM UM VIDEO HOSPEDADO NO YOUTUBE</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/i96IShmev8U" title="Momunento das aguas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/i96IShmev8U?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Meu Player de Vídeo</title>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script>
+    var player;
+
+    function onYouTubeIframeAPIReady() {
+      player = new YT.Player('player', {
+        videoId: 'i96IShmev8U',
+        playerVars: {
+          controls: 0,
+          showinfo: 0,
+          modestbranding: 1
+        }
+      });
+    }
+
+    function playVideo() {
+      player.playVideo();
+    }
+
+    function pauseVideo() {
+      player.pauseVideo();
+    }
+
+    function toggleFullScreen() {
+      if (player.isFullscreen()) {
+        player.exitFullscreen();
+      } else {
+        player.enterFullscreen();
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="player"></div>
+  <button onclick="playVideo()">Play</button>
+  <button onclick="pauseVideo()">Pause</button>
+  <button onclick="toggleFullScreen()">Toggle Fullscreen</button>
+</body>
+</html>
