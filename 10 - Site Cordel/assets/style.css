@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-family: "passion one";
+    font-size: 145px;
+    color: white;
+    font-variant: small-caps;
+}
+
+header p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white
+}
+
+header p a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    text-decoration: none;
+    color: white
+}
+
+header p a:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: bold;
+    text-decoration: underline;
+    color: white
+}
+
+main p {
+    font-family: Sriracha;
+}
+
+article {
+    text-align: ;
+}
+
+.text_white1{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+
+.text_white2{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.827);
+}
+
+article .background_joaninha {
+    background-image: url(../imagens/background001.jpg);    
+}
+
+article .background_book {
+    background-image: url(../imagens/background002.jpg);    
+}
