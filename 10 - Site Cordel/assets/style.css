@@ -45,13 +45,17 @@ article {
     text-align: ;
 }
 
-.text_white1{
+/* .text_white1{
     color: white;
     background-color: rgb(0, 0, 0);
 }
 
 .text_white2{
     color: white;
+    background-color: rgba(0, 0, 0, 0.827);
+} */
+
+div .background_black{
     background-color: rgba(0, 0, 0, 0.827);
 }
 
