@@ -45,24 +45,54 @@ article {
     text-align: ;
 }
 
-/* .text_white1{
-    color: white;
-    background-color: rgb(0, 0, 0);
+.text_black{
+    padding: 80px;
 }
 
-.text_white2{
+.background_joaninha{
+    background-image: url(../imagens/background001.jpg);
+    background-position: center;
+}
+
+ .text_white1{
     color: white;
-    background-color: rgba(0, 0, 0, 0.827);
-} */
+    background-color: rgba(0, 0, 0, 0.205);
+    padding: 80px;
+}
+
+.quadradinde7{
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.background_book{
+    background-image: url(../imagens/background002.jpg);
+    background-position: 0%;
+    }
+
+.text_white2{
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.685);
+    background-repeat: repeat;
+    padding: 80px;
+}
+
+.quadradinde8{
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+
+
+
 
 div .background_black{
-    background-color: rgba(0, 0, 0, 0.827);
+    /* background-color: rgba(0, 0, 0, 0.827); */
 }
 
 article .background_joaninha {
-    background-image: url(../imagens/background001.jpg);    
+    /* background-image: url(../imagens/background001.jpg);     */
 }
 
 article .background_book {
-    background-image: url(../imagens/background002.jpg);    
+    /* background-image: url(../imagens/background002.jpg);     */
 }
